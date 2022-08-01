@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.puppyHeader{
+    position: sticky;
+  top:1px;
+   
+}
+.puppyHeader , footer{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 3% 0 3% 0;
+    
+}
+img {
+    width: 100%;
+
+}
+.boxOfThree, .boxOfTwo{
+    display: flex;
+   justify-content: center;
+}
+.morePuppy{
+    text-align: center;
+    padding: 2% 0 2% 0;
+}
+ p{
+    background-color: tomato;
+text-align: center;
+text-transform: capitalize;
+font-style: oblique;
+font-size: 2rem;
+  padding-top: 3%;
+  width: 100%;
+  height: 98%;
+
+}
+.puppyOne, .puppyTwo, .puppyThree,.puppyFour , .missingPuppy{
+padding: 2%;  
+padding-left: 2%;  
+}
+@media screen and (max-width: 600px) {
+    
+    body{
+        background-color: aqua;
+    }
+
+    .boxOfThree, .boxOfTwo{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+    }
+
+}
